@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Villa</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" id="homeLink">Home</a></li>
+                <li><a href="contact.html" id="contactLink">Contact</a></li>
+            </ul>
+            <div id="language-switcher" class="dropdown">
+                <button class="dropbtn">
+                    <img src="assets/images/flags/en.png" alt="English" id="current-flag">
+                </button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="setLanguage('en')">
+                        <img src="assets/images/flags/en.png" alt="English"> English
+                    </a>
+                    <a href="#" onclick="setLanguage('tr')">
+                        <img src="assets/images/flags/tr.png" alt="Turkish"> Türkçe
+                    </a>
+                    <a href="#" onclick="setLanguage('de')">
+                        <img src="assets/images/flags/de.png" alt="German"> Deutsch
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="banner">
+            <div class="banner-text">
+                <h1>COMING SOON</h1>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="footerText"></p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
