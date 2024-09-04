@@ -1,10 +1,20 @@
 {
-    "title": "Tatillik Villa",
-    "homeLink": "Ana Sayfa",
-    "contactLink": "İletişim",
-    "descriptionText": "Güzel tatil villamıza hoş geldiniz. Lüks olanaklar ve nefes kesen manzaralarla konaklamanızın tadını çıkarın.",
-    "contactHeading": "Bize Ulaşın",
-    "contactText": "Bize +123 456 789 numaralı telefondan veya info@vacationvilla.com adresinden e-posta ile ulaşabilirsiniz.",
-    "footerText": "© 2024 Tatillik Villa. Tüm hakları saklıdır."
+    "bannerTitle": "Villa Deniz",
+    "bannerSubtitle": "Tatil eviniz.",
+    "bannerLocation": "Manavgat, Antalya, Türkiye",
+    
+    "aboutTitle": "Hakkında",
+    "aboutCard1": "2 yatak odalı dubleks villa, 5 kişiye kadar konaklama imkanı",
+    "aboutCard2": "Tam donanımlı. Klima ve WiFi mevcut.",
+    "aboutCard3": "Marketlere ve alışveriş merkezlerine yakın, plaja 300 metre mesafede, çocuk dostu mahalle.",
+
+    "photosTitle": "Fotoğraflar",
+
+
+    "locationTitle": "Konum",
+
+    "contactTitle": "İletişim",
+    "contactInfo1": "John Doe: +90 332 124 2332 (Türkçe)",
+    "contactInfo2": "Jane Doe: +49 4344 0543555 (İngilizce ve Almanca)"
 }
 

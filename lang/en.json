@@ -1,10 +1,22 @@
 {
-    "title": "Vacation Villa",
-    "homeLink": "Home",
-    "contactLink": "Contact",
-    "descriptionText": "Welcome to our beautiful vacation villa. Enjoy your stay with luxury amenities and breathtaking views.",
-    "contactHeading": "Contact Us",
-    "contactText": "You can reach us at +123 456 789 or email us at info@vacationvilla.com",
-    "footerText": "© 2024 Vacation Villa. All rights reserved."
+    "bannerTitle": "Villa Deniz",
+    "bannerSubtitle": "Your Vacation Home",
+    "bannerLocation": "Manavgat, Antalya, Türkiye",
+    
+    "aboutTitle": "About",
+    "aboutCard1": "Dublex villa with 2 bedrooms, up to 5 guests.",
+    "aboutCard2": "Fully furnished. AC and WiFi is available.",
+    "aboutCard3": "Next to grocery stores and shopping centres, 300 meters to the beach, kids friendly neighbourhood.",
+
+    "photosTitle": "Photos",
+
+
+    "locationTitle": "Location",
+
+    "contactTitle": "Contact",
+    "contactInfo1": "John Doe: +90 332 124 2332 (Turkish)",
+    "contactInfo2": "Jane Doe: +49 4344 0543555 (English and German)"
+
+
 }
 

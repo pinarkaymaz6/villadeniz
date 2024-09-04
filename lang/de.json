@@ -1,10 +1,20 @@
 {
-    "title": "Ferienvilla",
-    "homeLink": "Startseite",
-    "contactLink": "Kontakt",
-    "descriptionText": "Willkommen in unserer schönen Ferienvilla. Genießen Sie Ihren Aufenthalt mit luxuriösen Annehmlichkeiten und atemberaubenden Ausblicken.",
-    "contactHeading": "Kontaktieren Sie uns",
-    "contactText": "Sie können uns unter +123 456 789 erreichen oder uns eine E-Mail an info@vacationvilla.com senden.",
-    "footerText": "© 2024 Ferienvilla. Alle Rechte vorbehalten."
+    "bannerTitle": "Villa Deniz",
+    "bannerSubtitle": "Ihr Ferienhaus",
+    "bannerLocation": "Manavgat, Antalya, Türkiye",
+    
+    "aboutTitle": "Über uns",
+    "aboutCard1": "Doppelhaushälfte mit 2 Schlafzimmern, für bis zu 5 Gäste.",
+    "aboutCard2": "Voll möbliert. Klimaanlage und WLAN verfügbar.",
+    "aboutCard3": "In der Nähe von Lebensmittelgeschäften und Einkaufszentren, 300 Meter zum Strand, kinderfreundliche Nachbarschaft.",
+
+    "photosTitle": "Fotos",
+
+
+    "locationTitle": "Lage",
+
+    "contactTitle": "Kontakt",
+    "contactInfo1": "John Doe: +90 332 124 2332 (Türkisch)",
+    "contactInfo2": "Jane Doe: +49 4344 0543555 (Englisch und Deutsch)"
 }
 
