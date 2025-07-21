@@ -28,6 +28,11 @@ const resources = {
         phone: 'Phone: +90 532 592 00 77',
         email: 'Email: info@villadeniz.net',
       },
+      reservation: {
+        title: 'Book on Airbnb',
+        description: 'You can reserve your stay at Villa Deniz via Airbnb.',
+        view: 'View on Airbnb',
+      },
     },
   },
   tr: {
@@ -55,6 +60,11 @@ const resources = {
         name: 'Sahibi: Nevzat Kaymaz',
         phone: 'Telefon: +90 532 592 00 77',
         email: 'E-posta: info@villadeniz.net',
+      },
+      reservation: {
+        title: "Villa Deniz Airbnb'de",
+        description: "Villa Deniz'de tatilinizi simdi Airbnb uzerinden tamamlayabilirsiniz.",
+        view: "Airbnb'ye gidin",
       },
     },
   },
@@ -84,6 +94,11 @@ const resources = {
         name: 'Besitzer: Nevzat Kaymaz',
         phone: 'Telefon: +90 532 592 00 77',
         email: 'E-Mail: info@villadeniz.net',
+      },
+      reservation: {
+        title: 'Buchen Sie auf Airbnb',
+        description: 'Sie können Ihren Aufenthalt in der Villa Deniz über Airbnb buchen.',
+        view: 'View on Airbnb',
       },
     },
   },

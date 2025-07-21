@@ -6,7 +6,7 @@ const Navbar = () => {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
+    i18n.changeLanguage(lng.target.value);
   };
 
   return (
@@ -30,9 +30,11 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-right">
-        <button onClick={() => changeLanguage('en')}>EN</button>
-        <button onClick={() => changeLanguage('tr')}>TR</button>
-        <button onClick={() => changeLanguage('de')}>DE</button>
+        <select onChange={changeLanguage} defaultValue={i18n.language} className="language-select">
+          <option value="tr">TR</option>
+          <option value="en">EN</option>
+          <option value="de">DE</option>
+        </select>
       </div>
     </nav>
   );
