@@ -43,7 +43,7 @@ const resources = {
         location: 'Antalya, Türkiye',
       },
       about: {
-        heading: 'Kiralık Ev Hakkında',
+        heading: 'Deniz Villa Hakkında',
         card1: '2 yatak odalı deniz manzarali dubleks villa, 6 kişiye kadar konaklama imkanı',
         card2: 'Tam donanımlı mutfak. Ücretsiz WiFi ve tüm odalarda klima bulunmaktadır.',
         card3: 'Marketlere ve alışveriş merkezlerine yakın, plaja 400 metre mesafede, çocuk dostu mahalle.',
