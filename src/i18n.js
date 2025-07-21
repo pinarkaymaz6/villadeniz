@@ -9,6 +9,7 @@ const resources = {
         gallery: 'Gallery',
         location: 'Location',
         contact: 'Contact',
+        reservation: 'Online Reservation',
       },
       banner: {
         title: 'Villa Deniz',
@@ -36,6 +37,7 @@ const resources = {
         gallery: 'Galeri',
         location: 'Konum',
         contact: 'İletişim',
+        reservation: 'Rezervasyon',
       },
       banner: {
         title: 'Villa Deniz',
@@ -63,6 +65,7 @@ const resources = {
         gallery: 'Galerie',
         location: 'Lage',
         contact: 'Kontakt',
+        reservation: 'Online Reservierung',
       },
       banner: {
         title: 'Villa Deniz',

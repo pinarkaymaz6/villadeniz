@@ -24,6 +24,9 @@ const Navbar = () => {
         <a href="#contact" className="nav-link">
           {t('nav.contact')}
         </a>
+        <a href="#reservation" className="nav-link reservation-highlight">
+          {t('nav.reservation')}
+        </a>
       </div>
 
       <div className="navbar-right">

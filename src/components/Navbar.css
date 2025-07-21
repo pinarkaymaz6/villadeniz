@@ -31,3 +31,18 @@
 .navbar-right button:hover {
   background-color: #eee;
 }
+
+.reservation-highlight {
+  background-color: #ff9800;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-left: 12px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.reservation-highlight:hover {
+  background-color: #e68900;
+}
