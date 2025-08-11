@@ -1,14 +1,33 @@
 /* Base navbar style */
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 0;
-  z-index: 999;
+  padding: 0 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+body {
+  padding-top: 60px;
+}
+
+.navbar-logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.navbar-logo img:hover {
+  transform: scale(1.05);
 }
 
 .navbar-left {
@@ -40,9 +59,51 @@
   border-radius: 5px;
 }
 
-.language-select {
-  padding: 0.3rem;
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
+
+.navbar-right .highlighted {
+  background-color: #ff9800;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+
+.navbar-right .highlighted:hover {
+  background-color: #e68900;
+}
+
+.flag-icon {
+  width: 24px;
+  height: 16px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  opacity: 0.5;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.flag-icon:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.flag-icon.active {
+  opacity: 1;
+  border: 2px solid #ff9800; /* highlight color */
+  box-shadow: 0 0 5px rgba(255, 152, 0, 0.6);
+}
+
+/* .language-select {
+  padding: 0.3rem;
+  font-size: 1rem;
+} */
 
 /* Hamburger menu button (hidden on desktop) */
 .menu-toggle {
@@ -81,7 +142,12 @@
     text-align: center;
   }
 
-  .language-select {
+  /* .language-select {
     margin-top: 1rem;
+  } */
+  .navbar-right {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
   }
 }
