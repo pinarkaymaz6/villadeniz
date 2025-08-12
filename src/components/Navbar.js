@@ -6,7 +6,7 @@ import trFlag from '../assets/flags/tr.png';
 import enFlag from '../assets/flags/en.png';
 import deFlag from '../assets/flags/de.png';
 
-// import logo from '../assets/logo.svg';
+import logo from '../assets/logo.svg';
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -25,13 +25,14 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <div className="navbar-brand">Villa Deniz</div>
-        {/* <a href="#home" className="navbar-logo">
-          <img src={logo} alt="Villa Deniz Logo" />
-        </a> */}
         <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
           ☰
         </button>
+
+        <a href="#home" className="navbar-logo-link">
+          <img src={logo} alt="Villa Deniz Logo" className="navbar-logo" />
+          <span className="navbar-title">Villa Deniz</span>
+        </a>
       </div>
 
       <div className={`navbar-links ${menuOpen ? 'active' : ''}`}>
@@ -49,7 +50,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className="navbar-right">
-        <a href="#reservation" className="nav-link highlighted" onClick={closeMenu}>
+        <a href="#reservation" className="nav-link highlighted">
           {t('nav.reservation')}
         </a>
         <img
