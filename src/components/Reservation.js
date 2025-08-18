@@ -31,6 +31,25 @@ const Reservation = () => {
     <div className="reservation-section" id="reservation">
       <h2>{t('reservation.title')}</h2>
       <p>{t('reservation.description')}</p>
+      <div className="reservation-container">
+        <div
+          class="airbnb-embed-frame"
+          data-id="1339250038918906083"
+          data-view="home"
+          data-hide-price="true"
+          loading="lazy"
+          style={{ width: '100%', height: '500', margin: 'auto', border: 'none', borderRadius: '8px' }}
+        >
+          <a
+            href="https://www.airbnb.com/rooms/1339250038918906083?guests=1&amp;adults=1&amp;s=66&amp;source=embed_widget"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            Home in Manavgat · ★4.63 · 2 bedrooms · 5 beds · 1.5 baths
+          </a>
+          <script async="" src="https://www.airbnb.com/embeddable/airbnb_jssdk"></script>
+        </div>
+      </div>
       <div className="reservation-card">
         <p>"{reviews[index].text}"</p>
         <span>– {reviews[index].author}</span>

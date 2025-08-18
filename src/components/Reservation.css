@@ -64,3 +64,8 @@
 .reservation-buttons button:hover {
   background: #e68a00;
 }
+
+.reservation-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
